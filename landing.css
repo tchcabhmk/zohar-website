@@ -4,7 +4,7 @@ body {
 
 
 .head {
-    background-image: url("pastel.jpg");
+    background-image: url("lendingpage\ \(1\).jpg");
 
     background-size: cover;
     background-attachment: fixed;
@@ -248,6 +248,13 @@ p {
         right: 150px;
     }
 
+    .contact-button .btn {
+        width: 200px;
+        height: 55px;
+        border-radius: 100px;
+        font-size: 18px;
+        /* Add any other button styles you need */
+    }
 
 }
 
@@ -281,12 +288,24 @@ p {
         width: 200px;
     }
 
+    .contact-button .btn {
+        width: 150px;
+        height: 50px;
+        border-radius: 100px;
+        font-size: 17px;
+        /* Add any other button styles you need */
+    }
+
 
 }
 
 @media (max-width: 453px) {
     h2 {
         font-size: 17px;
+    }
+
+    .hero-title {
+        font-size: 25px;
     }
 
     .expirience-container {
@@ -317,14 +336,26 @@ p {
         height: fit-content;
     }
 
+    #three {
+        padding-bottom: 70px;
+    }
 
+    .contact-button .btn {
+        width: 140px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 14px;
+        /* Add any other button styles you need */
+    }
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     .mom {
         display: none;
     }
+
+
 
     h2 {
         font-size: 12px;
@@ -334,6 +365,10 @@ p {
     #two,
     #three {
         height: fit-content;
+    }
+
+    #three {
+        padding-bottom: 100px;
     }
 
 
@@ -348,7 +383,7 @@ p {
     }
 
     .hero-title {
-        font-size: 30px;
+        font-size: 19px;
     }
 
     .hero-text {
@@ -357,12 +392,39 @@ p {
 
     .btn {
         width: 150px;
+        margin-bottom: 20px;
     }
+
+
 
     .button-text {
         font-size: 18px;
     }
 
+    .contact-button .btn {
+        width: 130px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 14px;
+        /* Add any other button styles you need */
+    }
+
+
+
+}
+
+@media (max-width: 260px) {
+    .hero-title {
+        font-size: 14px;
+    }
+
+    .contact-button .btn {
+        width: 100px;
+        height: 35px;
+        border-radius: 100px;
+        font-size: 14px;
+        /* Add any other button styles you need */
+    }
 
 
 }
